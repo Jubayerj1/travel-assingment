@@ -1,0 +1,45 @@
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column;
+        margin: auto;
+        padding: auto;
+        gap: 10px
+        align-items: center;
+    }
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px
+    }
+    .nav-title{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bannar-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content-title {
+        font-size: 35px;
+
+    }
+    .content-describsion{
+        color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    margin: 10px;
+    }
+    .primery-btn-b{
+        visibility: hidden;
+        margin: 0;
+    }
+    .popular-section{
+        flex-direction: column;
+        padding-top: 50px;
+        
+    }
+}
