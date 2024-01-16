@@ -133,6 +133,7 @@ body {
     align-items: center;
     margin-top: 50px;
 }
+
 .popular-container {
     width: 50%;
 }
@@ -155,7 +156,8 @@ body {
     font-weight: 800;
 }
 
-.popular-describsion, .popular-item {
+.popular-describsion,
+.popular-item {
     color: rgba(19, 19, 24, 0.70);
     font-size: 18px;
     font-weight: 400;
@@ -164,4 +166,28 @@ body {
     padding: 18px;
     gap: 10px;
 }
-/*  */
+
+/* Destination stayle */
+.Destination-container {
+    max-width: 1450px;
+    min-height: 200px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.des-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.des-describsion {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
