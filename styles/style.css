@@ -37,15 +37,91 @@ body {
     width: 50%;
     font-size: 1rem;
 }
-.lets{
+
+.lets {
     color: #131318;
 }
-.fly{
+
+.fly {
     color: #FF5400;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     text-decoration: none;
     justify-content: space-between;
 }
+
 /* bannar secsion */
+.bannar-container {
+    border-radius: 10px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    max-width: 1450px;
+    min-height: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bannar-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.bannar-title {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.bannar-describsion {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 15px;
+}
+
+.find-container {
+    margin: 20px;
+    padding: 20px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Where,
+.When,
+.Select {
+    color: #FFF;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+}
+
+#primery-btn {
+    color: #FFF;
+    background: #FF5400;
+    font-weight: 700;
+    margin: 18px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 154px;
+    height: 42px;
+
+}
