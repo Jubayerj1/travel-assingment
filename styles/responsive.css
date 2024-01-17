@@ -48,7 +48,7 @@
         padding: 10px;
     }
     .des-title{
-        font-size: 10px;
+        font-size: 30px;
     font-weight: 800;
     }
     /* gallery repo */
@@ -57,4 +57,27 @@
         padding: 20px;
         margin: 10px 40px;
     }
+    /* choose respo */
+    .Choose-describsion{
+        width: 100%;
+        margin: 10px, 150px;
+        padding: 5px;
+    }
+    .newsletter-container{
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .Newsletter-part {
+        border: 2px solid tomato;
+        border-radius: 5px;
+        max-height: 480px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;}
+.Newsletter-img-part {
+    width: 98%;
+    padding: 5px 5px;
+}
 }
