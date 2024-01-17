@@ -249,7 +249,6 @@
 
 /* chose and cart section */
 .cart-container {
-    border: 5px solid rgb(211, 247, 8);
     max-width: 1450px;
     min-height: 500px;
     margin: 0 auto;
@@ -332,6 +331,7 @@
     margin: 0 auto;
     display: flex;
     gap: 10px;
+    margin-top: 50px;
 }
 
 .Newsletter-part {
