@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
 
-body {
+* {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
     font-family: 'Mulish', sans-serif;
@@ -384,23 +384,63 @@ body {
 }
 
 #Saveup {
-    color: #ffffff
-    border-radius: 16px;
+    color: #ffffff border-radius: 16px;
     background: #FF5400;
     width: 280px;
     position: relative;
-    bottom: 90px;   
+    bottom: 90px;
 }
-#Saveup p{
+
+#Saveup p {
     color: #FFF;
-text-align: center;
-font-size: 20px;
-font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
 }
-#Saveup h2{
+
+#Saveup h2 {
     font-size: 24px;
     color: #FFF;
     padding: 20px;
     margin-top: 0;
     width: 280px;
+}
+
+/* footer section */
+.footer-part {
+    max-width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-title {
+    margin-top: 180px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.footer-des {
+    margin: 20px auto;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    width: 100.220px;
+    height: 30px;
+    margin-top: 10px;
+}
+.hr-line{
+    margin-top: 50px;
+}
+#copy-right{
+    margin-top: 60px;
+    color: #131318;
+font-size: 22px;
+font-weight: 300;
 }
